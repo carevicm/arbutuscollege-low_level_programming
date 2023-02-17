@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <_putchar.h>
 #include <main.h>
 /**
  * It prints word _putchar, followed by the new line
