@@ -1,5 +1,6 @@
 #include <unistd.h>
-#include <main.h>
+#include "main.h"
+
 /**
  * It prints word _putchar, followed by the new line
  * Return: Always 0
