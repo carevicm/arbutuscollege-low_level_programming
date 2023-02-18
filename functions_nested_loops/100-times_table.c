@@ -16,6 +16,12 @@ void print_times_table(int n)
 			_putchar('0');
 			for (j = 1; j <= n; j++)
 				putformat(i * j);
+			{ 
+				if (n == 0) 
+				{
+				printf("0\n");
+				return;
+			}
 			_putchar('\n');
 		}
 	}
