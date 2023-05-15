@@ -1,18 +1,29 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * puts2 - Prints one char out of two of a string.
- * @str: The string containing characters.
+ * puts2 - reverses a string
+ * @str: string
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 void puts2(char *str)
 {
-	int index = 0, len = 0;
+	int i, j;
 
-	while (str[index++])
-		len++;
-
-	for (index = 0; index < len; index += 2)
-		_putchar(str[index]);
-
+	i = 0;
+	j = 0;
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	while (j < i)
+	{
+		if (j % 2 == 0)
+		{
+			_putchar(str[j]);
+		}
+		j++;
+	}
 	_putchar('\n');
 }
