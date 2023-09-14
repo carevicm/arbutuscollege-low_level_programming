@@ -1,4 +1,3 @@
-Readme file
 
 Project badge
 100%
